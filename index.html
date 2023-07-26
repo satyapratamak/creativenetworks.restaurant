@@ -32,5 +32,15 @@
         </div>
     </header>
     <!-- header section end -->
+
+    <script type="text/javascript">
+        let menu = document.querySelector('#menu');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () =>{
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
 </body>    
 </html>
